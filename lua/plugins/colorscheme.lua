@@ -1,23 +1,23 @@
 return {
-  -- add gruvbox with overrides
-  { 
-    "ellisonleao/gruvbox.nvim",
-    opts = {
-      overrides = {
-        Normal = { bg = "#000000" },
-        NormalNC = { bg = "#000000" },
-        SignColumn = { bg = "#000000" },
-        EndOfBuffer = { bg = "#000000" },
-        NormalFloat = { bg = "#000000" },
-      },
-    },
-  },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  }
+-- add gruvbox with overrides
+-- { 
+--   "ellisonleao/gruvbox.nvim",
+--   opts = {
+--     overrides = {
+--       Normal = { bg = "#000000" },
+--       NormalNC = { bg = "#000000" },
+--       SignColumn = { bg = "#000000" },
+--       EndOfBuffer = { bg = "#000000" },
+--       NormalFloat = { bg = "#000000" },
+--     },
+--   },
+-- },
+--
+-- -- Configure LazyVim to load gruvbox
+-- {
+--   "LazyVim/LazyVim",
+--   opts = {
+--     colorscheme = "gruvbox",
+--   },
+-- }
 }
