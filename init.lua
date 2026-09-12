@@ -4,3 +4,4 @@
 vim.keymap.set({'n', 'i', 'v'}, '<Find>', '<Home>', { silent = true })
 vim.keymap.set({'n', 'i', 'v'}, '<Select>', '<End>', { silent = true })
 require("config.lazy")
+require("config.commands")
